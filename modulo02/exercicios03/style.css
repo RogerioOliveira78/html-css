@@ -1,0 +1,24 @@
+@charset "UTF-8";
+*{
+    font-family:'work San', Arial, Helvetica, sans-serif;
+    /*height:100%;*/
+}
+
+body{
+    background-color: rgb(193, 167, 158);
+    font-family: 'courier New';
+    font: size 61px; ;
+    font-style: italic;
+}
+h1{
+    text-decoration: underline;
+    color: darkgreen;
+    text-align: center;
+    text-shadow: 2px 2px 2px dimgray;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}

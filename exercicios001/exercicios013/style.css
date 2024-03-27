@@ -1,0 +1,16 @@
+body{
+    color: rgba(58, 139, 0, 0.882);
+    background-color: lightgoldenrodyellow;
+    
+}
+h1{
+    color: darksalmon;
+    background-color: cyan;
+    text-decoration: underline;
+}
+h2{
+    color: rgb(79, 47, 68);
+}
+p{
+    text-align: justify;
+}
