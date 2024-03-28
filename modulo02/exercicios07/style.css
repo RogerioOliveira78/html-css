@@ -78,6 +78,26 @@ div.campo > label {
     display: none;
 }
 
+div.campo > i {
+    color: #49b450;
+    background-color: rgb(104, 41, 176);
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+div.campo > input {
+    background-color: rgb(207, 168, 207);
+    font-size: 1em;
+    width: calc(100% - 49px);
+    transform: translatey(-12px);
+    height: 100%;
+    border:0px ;
+    border-radius: 8px;
+    padding: 4px;
+}
+
 form > input[type=submit] {
     display: block;
     font-size: 1.em;
@@ -112,9 +132,14 @@ form > a.botao {
     
 }
 
+div.campo > input:focus-within {
+    background-color: white;
+    border: none;
+}
+
 form > a.botao:hover {
     background-color: darkred;
-   
+}   
 
 form > a.botao:i > {
     font-size: 0.4em;
